@@ -1,0 +1,108 @@
+.main-page {
+  width: 700px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.container-btn-create {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-btn-create a {
+  display: block;
+  font-size: 12px;
+  color: rgb(27, 27, 27);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-create {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(187, 219, 239);
+}
+
+.page {
+  width: 100%;
+}
+
+.post-container {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 1px solid rgb(187, 219, 239);
+}
+
+.post-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(187, 219, 239);
+}
+
+.post-information {
+  display: flex;
+}
+
+.post-name {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.post-content {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.form-container {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.input-form {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 60px;
+  max-height: 60px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: rgb(187, 219, 239);
+  text-transform: uppercase;
+}
+
+.btn:nth-child(n + 2) {
+  margin-left: 10px;
+}
+
+.post-card {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.loading-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-btn-container {
+  margin-top: 15px;
+}
